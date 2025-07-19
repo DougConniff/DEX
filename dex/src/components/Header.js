@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../moalis-logo.svg";
+import Logo from "../logo.png";
 import Eth from"../eth.svg";
 
 function Header() {
