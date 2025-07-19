@@ -1,8 +1,16 @@
 import React from 'react'
+import Logo from "../moalis-logo.svg";
+import Eth from"../eth.svg";
 
 function Header() {
   return (
-    <div>Header</div>
+    <header>
+    <div className="leftH">
+      <img src={Logo} alt="Logo" className="logo" />
+      <div className="headerItem">Swap</div>
+      <div className="headerItem">Tokens</div>
+    </div>
+    </header>
   )
 }
 
